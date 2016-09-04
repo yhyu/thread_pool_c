@@ -1,4 +1,5 @@
 # Thread Pool in C
+A library to create thread pool with the capability of increasing/decreasing thread numbers dynamically accordance with strategy.
 
 ### How to use?
 
@@ -31,4 +32,4 @@ Destroy a thread pool
     int ret = destroy_thread_pool(tp_ctxt);
 ```
 
-For detail example, please refer to test program: thread_pool_test.c
+For detail example, please refer to test program, [thread_pool_test.c](https://github.com/yhyu/thread_pool_c/blob/master/thread_pool_test.c).
